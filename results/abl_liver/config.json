@@ -1,0 +1,14 @@
+{
+  "exp": "abl_liver",
+  "model": "vit_base_patch16_224",
+  "input": "liver",
+  "preproc": "none",
+  "aug": false,
+  "size": 224,
+  "lr": 1e-05,
+  "bs": 32,
+  "epochs": 50,
+  "patience": 5,
+  "folds": "1,2,3,4,5",
+  "save_weights": false
+}

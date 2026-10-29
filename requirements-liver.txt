@@ -1,0 +1,6 @@
+# Only for the liver-region ablation (src/liver_masks.py); kept in a separate environment in the paper
+TotalSegmentator==2.18.0
+nnunetv2==2.8.1
+torch==2.5.1
+opencv-python>=4.10  # cv2 4.10.0 was used
+scipy==1.15.1
